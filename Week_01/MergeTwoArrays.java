@@ -32,7 +32,7 @@ public class MergeTwoArrays extends BaseRunner {
     }
 
     // 3. same to 2, but only considering when modifying nums1(longer one) need additional space, 
-    // it can be avoid by visit array in descending order. time complexity O(n + m), space complexity O(1)
+    // can be avoid by visit array in descending order. time complexity O(n + m), space complexity O(1)
     class Solution3 {
         public void merge (int[] nums1, int m, int[] nums2, int n) {
             int p = m + n - 1, p1 = m - 1, p2 = n - 1;

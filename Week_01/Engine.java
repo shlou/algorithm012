@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
+// just for local degbugging to see what happened there.
 public class Engine {
     public static void main (String[] args) {
         
@@ -38,9 +39,23 @@ public class Engine {
                 case "TwoSum":
                     runners.add(new TwoSum());
                     break;
+                case "MoveZeros":
+                    runners.add(new MoveZeros());
+                    break;
+                case "PlusOne":
+                    runners.add(new PlusOne());
+                    break;
+                case "TestMyCircularDeque":
+                    runners.add(new TestMyCircularDeque());
+                    break;
+                case "Trap":
+                    runners.add(new Trap());
+                    break;
+                case "MaxSubArray":
+                    runners.add(new MaxSubArray());
+                    break;
                 default:
                     break;
-                
             }
         }
 
