@@ -31,6 +31,10 @@ public class Engine {
                 return new PreorderTraversal();
             case "Levelorder":
                 return new Levelorder();
+            case "NthUglyNumber":
+                return new NthUglyNumber();
+            case "TopKFrequent":
+                return new TopKFrequent();
             default:
                 return null;
         }
