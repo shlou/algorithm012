@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
-import javax.util;
+import javafx.util;
 
 public class MaxDepth implements Debugger {
     public void run () {}
